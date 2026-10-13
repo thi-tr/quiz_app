@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:quiz_app/start_screen.dart';
 
 class Quiz extends StatefulWidget {
+  const Quiz({super.key});
   @override
-  State<StatefulWidget> createState() {
-    // TODO: implement createState
+  State<Quiz> createState() {
     return _QuizState();
   }
 }
