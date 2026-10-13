@@ -12,7 +12,7 @@ class _QuestionsScreenState extends State<QuestionsScreen>{
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-    throw UnimplementedError();
+    return Text("Questions Screen");
   }
 
 }
