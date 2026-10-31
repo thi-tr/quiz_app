@@ -18,7 +18,7 @@ class _QuizState extends State<Quiz>{
   //make this in quiz so every screen can see it
   void chooseAnswer(String answer) {
     selectedAnswers.add(answer);
-    if(selectedAnswers.length == questions.length){
+    if(selectedAnswers.length == 6){
       setState((){
         activeScreen = ResultsScreen(
           chosenAnswers: selectedAnswers, restartQuiz: restartQuiz);
